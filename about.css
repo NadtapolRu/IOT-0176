@@ -1,0 +1,155 @@
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    padding: 1rem;
+    background-color: rgba(178, 178, 178, 0.5);
+    
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none; 
+}
+nav img{width: 30px;
+    border-radius: 1px;}
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+.menu li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu img{width: 3rem;
+    border-radius: 1px;}
+.hero-con{
+    display: flex;
+    
+}
+
+.hero{
+    background-color: rgb(126, 129, 131);
+}
+.hero-info{
+    width: 60%;
+    padding: 2rem;
+    padding-right: rem;
+    
+    
+}
+.hero-info h3{
+    font-size: 2rem;
+}
+
+.hero-info p{
+    margin: 1rem 0;
+}
+
+.hero-info .hero-btn{
+    display: inline-block;
+    background-color: orange;
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 1px;
+    text-decoration: none;
+
+}
+.hero-img img{
+    width: 70%;
+    padding: 0.2rem;
+    box-shadow: 0 0 10px;
+    margin: 3rem;
+}
+
+/* ----------------------------------------- */
+.heroo-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    
+    
+}
+.heroo{
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+}
+.heroo h3{
+    font-size: 2rem;
+}
+
+.heroo p{
+    margin: 1rem 0;
+}
+.heroo-con img{
+    width: 60%;
+    border-radius: 10%;
+    box-shadow: 0 0 10px;
+}
+
+
+
+/* --------------------------------------------------- */
+.box-con img{
+    width: 60%;
+}
+
+.box-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.box-titel{
+    margin:2rem 0 ;
+}
+
+.box-item img{
+    width: 100%;
+}
+
+.box-item h4{
+    margin-top: 1rem;
+}
+
+.box-item p{
+    margin: 1rem;
+    display:inline-flexbox;
+}
+
+.box-item ul{
+    /* display: inline-block; */
+    text-decoration: none;
+}
+
+
+.box-item a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* .box-item .icon{
+    margin-right: 0 0 10px;
+} */
+
+/* ----------- */
