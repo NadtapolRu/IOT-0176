@@ -46,9 +46,9 @@ nav{
 }
 .banner{
     /* background-color:rgba(112, 105, 155, 0.1); */
+    display: flex;
     color:rgb(255, 255, 255);
     height: 400px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
